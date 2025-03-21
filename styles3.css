@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: white;
+}
+
+/* Encabezado con imagen de portada */
+header {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background: url('portada4.png') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+}
+
+.profile-container {
+    position: absolute;
+    bottom: -50px;
+    text-align: center;
+    width: 100%;
+}
+
+h1 {
+    font-size: 28px;
+    color: #DC143C;
+    margin-top: 10px;
+}
+
+/* Formulario de contacto */
+.contact-form {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(15, 15, 15);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #DC143C;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #333;
+    border: 1px solid #ddd;
+    color: white;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+/* Contenedor del botón */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #DC143C;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #A8112A;
+}
+
+/* Botón de enlace a la página principal (icono) */
+.home-link {
+    text-align: center; 
+    margin-top: 20px;
+}
+
+.home-link img {
+    width: 30px;
+    height: 30px;
+}
+
+.home-link p {
+    font-size: 12px;
+    color: white; 
+    margin-top: 5px;
+}

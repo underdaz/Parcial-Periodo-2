@@ -1,0 +1,183 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #000000;
+    color: white; /* Cambié el color del texto general a blanco */
+}
+
+/* Encabezado con imagen de portada */
+header {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background: url('portada.png') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+}
+
+/* Contenedor de la foto de perfil y el nombre */
+.profile-container {
+    position: absolute;
+    bottom: -50px;
+    text-align: center;
+    width: 100%;
+}
+
+/* Foto de perfil en círculo */
+.profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+/* Nombre debajo de la foto */
+h1 {
+    font-size: 28px;
+    color: #DC143C;
+    margin-top: 10px;
+}
+
+/* Secciones de contenido */
+.info-personal, .estudios, .menu {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(15, 15, 15);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #DC143C;
+}
+
+ol {
+    text-align: left;
+    display: inline-block;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+
+}
+
+.menu ul li {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.menu a:hover {
+    color: #A8112A;
+    text-align: center;
+}
+
+/* Pie de página (Redes Sociales) */
+footer {
+    background-color: #000; /* Fondo negro */
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.redes {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.redes li {
+    margin: 10px 0;
+}
+
+.redes a {
+    text-decoration: none;
+    color: #ffffff; /* Rojo escarlata */
+    font-weight: bold;
+    text-align: center;
+}
+
+.redes a:hover {
+    color: #A8112A; /* Rojo más oscuro al pasar el mouse */
+}
+
+
+
+.portada2  {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background: url('portada2.png') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+}
+
+/* Sección de contenido */
+.intereses {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(15, 15, 15);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Título de la lista */
+h2 {
+    color: #DC143C;
+}
+
+ul {
+    text-align: left;
+    display: inline-block;
+}
+
+li {
+    margin: 10px 0;
+}
+
+/* Estilo para el enlace */
+a {
+    color: #DC143C;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #A8112A;
+}
+
+/* Botón de enlace a la página principal (icono) */
+.home-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.home-link img {
+    width: 30px;
+    height: 30px;
+}
+
+.home-link p {
+    font-size: 12px;
+    color: white;
+    margin-top: 5px;
+}
+     
